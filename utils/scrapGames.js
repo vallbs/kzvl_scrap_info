@@ -18,7 +18,6 @@ class ScrapGames {
             }
         }
         return rp(options).then($ => {  
-            // const $ = cheerio.load(body);
             const matchdayTable = $('.matchdaytitle').next();
             const titles = $('.matchdaytitle .contentheading');
             const tours = [];
@@ -37,25 +36,10 @@ class ScrapGames {
 
                         // the next element is a row about game info
                         const gameInfoEl = $(el.next());
-                        // if (gameInfoEl) {
-                        //     game.zal = gameInfoEl.find('td:nth-child(2)').text().trim();
-                        //     game.time = gameInfoEl.find('td:nth-child(3)').text().trim();
-                        //     game.homeTeam = gameInfoEl.find('td:nth-child(5)').text().trim();
-                        //     game.guestTeam = gameInfoEl.find('td:nth-child(8)').text().trim();
-                        //     game.homeTeamScore = gameInfoEl.find('td:nth-child(9)').text().trim();
-
-                        //     const guestTeamScore = gameInfoEl.find('td:nth-child(11)').text().trim();
-                        //     const guestTeamScoreSplitted = guestTeamScore.split('(');
-                            
-                        //     const scores = guestTeamScoreSplitted[2].split('-');
-                        //     scores[scores.length-1] = scores[scores.length-1].replace(')', '');
-
-                        //     game.guestTeamScore = guestTeamScoreSplitted[0].trim();
-                        //     game.scoreBySets = scores;
-                        // }
 
                         const game = thisClass.getGameInfo(gameInfoEl);
-                        game.date = el.text().trim().split(' ').join('');
+                        const dateSplitted = el.text().split(". ");
+                        game.date = new Date(dateSplitted[2], parseInt(dateSplitted[1]) - 1, dateSplitted[0]);
 
                         gamesArr.push(game);
                     }
@@ -90,7 +74,7 @@ class ScrapGames {
 
         const game = {};
 
-        game.zal = gameInfoEl.find('td:nth-child(2)').text().trim();
+        game.stadium = gameInfoEl.find('td:nth-child(2)').text().trim();
         game.time = gameInfoEl.find('td:nth-child(3)').text().trim();
         game.homeTeam = gameInfoEl.find('td:nth-child(5)').text().trim();
         game.guestTeam = gameInfoEl.find('td:nth-child(8)').text().trim();
@@ -109,7 +93,7 @@ class ScrapGames {
     }
 
     writeToFile(fileName, gamesPayload) {
-        const filePath = this.path.join(__dirname, `${this.filesRootPath}/${fileName}`);
+        const filePath = path.join(__dirname, `${this.filesRootPath}/${fileName}`);
 
         const jsonContent = JSON.stringify(gamesPayload);
 
@@ -120,6 +104,8 @@ class ScrapGames {
             }
          
             console.log("JSON file has been saved.");
+
+            return true;
         });
     }
 }
