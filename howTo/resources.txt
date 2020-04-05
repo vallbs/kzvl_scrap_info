@@ -1,0 +1,8 @@
+----------------------------------------
+How to use MongoDB with promises in Node.js?
+https://stackoverflow.com/questions/37911838/how-to-use-mongodb-with-promises-in-node-js
+
+
+----------------------------------------
+Using MongoDB With Node.js
+https://www.mongodb.com/blog/post/the-modern-application-stack-part-2-using-mongodb-with-nodejs
