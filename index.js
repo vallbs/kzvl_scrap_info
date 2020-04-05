@@ -3,14 +3,12 @@ const app = express();
 const ScrapGames = require('./utils/scrapGames');
 const ScrapGamesInstance = new ScrapGames();
 
-const gamesPageUrl = 'https://ukv.org.ua/index.php?option=com_joomleague&func=showPlan&mode=1&p=412&Itemid=4217';
-
-const groupGames = [
+const groupGamesMappings = [
     {
         division: 'div_2',
-        title: 'Group_B',
+        title: 'Group_V',
         url: 'https://ukv.org.ua/index.php?option=com_joomleague&func=showPlan&mode=1&p=412&Itemid=4217',
-        fileName: 'div_2.group_b.json'
+        fileName: 'div_2.group_v.json'
     },
     {
         division: 'div_2',
@@ -20,7 +18,7 @@ const groupGames = [
     }
 ]
 
-const groupGamesPromises = groupGames.map(group => {
+const groupGamesPromises = groupGamesMappings.map(group => {
     return ScrapGamesInstance.scrap(group.url);
 });
 
@@ -28,8 +26,32 @@ Promise.all(groupGamesPromises).then(results => {
     console.log('results');
     console.log(results);
 
-    const writeToFIlePromises = results.map((groups, index) => {
-        return ScrapGamesInstance.writeToFile(groupGames[index].fileName, groups);
+    const writeToFIlePromises = results.map((group, index) => {
+
+        // fllen group-games object
+        // toursGames: tours.tour.games games for 1 group
+
+        let groupGames = [];
+
+        group.map(tour => {
+            let tourGames = [];
+
+            if (tour.games) {
+                tourGames = tour.games.map(game => {
+                    return {
+                        ...game,
+                        divisionId: groupGamesMappings[index].division,
+                        groupId: groupGamesMappings[index].title,
+                        tourId: tour.title,
+                        tourPeriod: tour.period
+                    }
+                });
+
+                groupGames = [...groupGames, ...tourGames];
+            }
+        });
+
+        return ScrapGamesInstance.writeToFile(groupGamesMappings[index].fileName, groupGames);
     });
 
     return Promise.all(writeToFIlePromises);

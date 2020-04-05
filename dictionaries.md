@@ -1,0 +1,26 @@
+GAME
+    divId
+        div_1
+        div_2
+        div_3
+        div_4
+    groupId
+        groupA
+        groupB
+        groupV
+        groupG
+        groupD
+        groupE
+    tourId
+        tour1
+        tour2
+        tour3
+        tour4
+        tour1
+        tour5
+        tour6
+        tour7
+        tour8
+        tour9
+        tour10
+    info

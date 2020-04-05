@@ -1,5 +1,6 @@
 const mongo = {
-    uri: '',
+    server: 'mongodb+srv',
+    clusterAddress: '@kvzl-d1qd8.mongodb.net/test',
     login: 'admin',
     password: 'admin'
 };
