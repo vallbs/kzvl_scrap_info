@@ -5,12 +5,14 @@ const ScrapGamesInstance = new ScrapGames();
 
 const groupGamesMappings = [
     {
+        seasonId: '2019-2020',
         division: 'div_2',
         title: 'Group_V',
         url: 'https://ukv.org.ua/index.php?option=com_joomleague&func=showPlan&mode=1&p=412&Itemid=4217',
         fileName: 'div_2.group_v.json'
     },
     {
+        seasonId: '2019-2020',
         division: 'div_2',
         title: 'Group_G',
         url: 'https://ukv.org.ua/index.php?option=com_joomleague&func=showPlan&mode=1&p=413&Itemid=4219',

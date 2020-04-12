@@ -13,6 +13,8 @@ class ScrapGames {
         const thisClass = this;
         const options = {
             uri: pageUrl,
+            rejectUnauthorized: false,
+            insecure: true,
             transform: function (body) {
                 return cheerio.load(body);
             }
