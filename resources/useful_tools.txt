@@ -1,0 +1,8 @@
+1. https://bundlephobia.com/
+ - can scan yor packages.json
+ - size of packages
+ - percantage of their dependencies
+ - time to load
+2. https://insomnia.rest/
+ - test RESP API
+ - test GraphQL API
