@@ -1,0 +1,65 @@
+1. get player's games information by its id = 5e9348536f5e347f42a767c2
+ if we have such games structure
+
+ homeTeam: {
+     players: {
+        5e9348536f5e347f42a767c2: {
+            fullName: 'DS',
+            status: 'STATUS'
+        }
+     }
+ }
+db.getCollection('games).find({$or:[{"homeTeam.players.5e9348536f5e347f42a767c2": { $exists: true }},{"guestTeam.players.5e9348536f5e347f42a767c2": { $exists: true }}]})
+
+
+2. get player's games information by its id = 5e9348536f5e347f42a767c2
+ if we have such games structure
+
+ homeTeam: {
+     players: [
+            {
+                id: '5e9348536f5e347f42a767c2'
+                fullName: 'DS',
+                status: 'STATUS'
+            }
+        }
+     ]
+ }
+
+db.getCollection('games_new_architecrute').find({ $or: [{"homeTeam.players": { $elemMatch: {"playerId": ObjectId("5e9348536f5e347f42a767c2")} } },{"guestTeam.players": { $elemMatch: {"playerId": ObjectId("5e9348536f5e347f42a767c2")} } }] })
+
+3. find all players who were in start
+    filter players array, show only those which has player.status = 'start'
+https://studio3t.com/knowledge-base/articles/filter-elements-from-mongodb-arrays/
+https://kb.objectrocket.com/mongo-db/filter-mongodb-array-elements-1184
+---
+
+db.getCollection("games_players").aggregate(
+    [
+        { 
+            "$match" : { 
+                "homeTeam" : "TS"
+            }
+        }, 
+        { 
+            "$project" : { 
+                "homeTeam" : 1.0, 
+                "players" : { 
+                    "$filter" : { 
+                        "input" : "$players", 
+                        "as" : "players", 
+                        "cond" : { 
+                            "$eq" : [
+                                "$$players.status", 
+                                "start"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    ], 
+    { 
+        "allowDiskUse" : false
+    }
+);
