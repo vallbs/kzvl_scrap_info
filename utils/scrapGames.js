@@ -115,3 +115,4 @@ class ScrapGames {
 const test = 'test';
 
 module.exports = ScrapGames;
+
