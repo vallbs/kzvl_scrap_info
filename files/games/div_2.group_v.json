@@ -1,0 +1,549 @@
+[
+    {
+        "stadium": "Лобановського, 6",
+        "time": "19:30",
+        "homeTeam": "Коло друзів",
+        "guestTeam": "Солом`янка",
+        "homeTeamScore": "3",
+        "guestTeamScore": "1",
+        "scoreBySets": [
+            "23:25",
+            "25:22",
+            "25:20",
+            "25:20"
+        ],
+        "date": "2019-10-02T21:00:00.000Z",
+        "divisionId": "div_2",
+        "groupId": "Group_V",
+        "tourId": "1 Тур",
+        "tourPeriod": "1 Тур (01/10/2019 - 17/10/2019)"
+    },
+    {
+        "stadium": "Ірпінь - Троїцька 40",
+        "time": "16:30",
+        "homeTeam": "Ірпінь",
+        "guestTeam": "ТС",
+        "homeTeamScore": "3",
+        "guestTeamScore": "1",
+        "scoreBySets": [
+            "24:26",
+            "25:23",
+            "25:14",
+            "25:16"
+        ],
+        "date": "2019-10-12T21:00:00.000Z",
+        "divisionId": "div_2",
+        "groupId": "Group_V",
+        "tourId": "1 Тур",
+        "tourPeriod": "1 Тур (01/10/2019 - 17/10/2019)"
+    },
+    {
+        "stadium": "Героїв Севастополя 37А",
+        "time": "19:30",
+        "homeTeam": "КСЛІ",
+        "guestTeam": "КНУ ім. Т.Г. Шевченко",
+        "homeTeamScore": "3",
+        "guestTeamScore": "0",
+        "scoreBySets": [
+            "25:18",
+            "25:17",
+            "25:12"
+        ],
+        "date": "2019-10-15T21:00:00.000Z",
+        "divisionId": "div_2",
+        "groupId": "Group_V",
+        "tourId": "1 Тур",
+        "tourPeriod": "1 Тур (01/10/2019 - 17/10/2019)"
+    },
+    {
+        "stadium": "Героїв Севастополя 37А",
+        "time": "19:30",
+        "homeTeam": "ТС",
+        "guestTeam": "КСЛІ",
+        "homeTeamScore": "1",
+        "guestTeamScore": "3",
+        "scoreBySets": [
+            "23:25",
+            "23:25",
+            "25:21",
+            "15:25"
+        ],
+        "date": "2019-10-24T21:00:00.000Z",
+        "divisionId": "div_2",
+        "groupId": "Group_V",
+        "tourId": "2 Тур",
+        "tourPeriod": "2 Тур (18/10/2019 - 03/11/2019)"
+    },
+    {
+        "stadium": "Героїв оборони 18А",
+        "time": "14:30",
+        "homeTeam": "КНУ ім. Т.Г. Шевченко",
+        "guestTeam": "Коло друзів",
+        "homeTeamScore": "0",
+        "guestTeamScore": "3",
+        "scoreBySets": [
+            "0:25",
+            "0:25",
+            "0:25"
+        ],
+        "date": "2019-10-25T21:00:00.000Z",
+        "divisionId": "div_2",
+        "groupId": "Group_V",
+        "tourId": "2 Тур",
+        "tourPeriod": "2 Тур (18/10/2019 - 03/11/2019)"
+    },
+    {
+        "stadium": "Лобановського, 6",
+        "time": "20:00",
+        "homeTeam": "Солом`янка",
+        "guestTeam": "Ірпінь",
+        "homeTeamScore": "0",
+        "guestTeamScore": "3",
+        "scoreBySets": [
+            "20:25",
+            "10:25",
+            "24:26"
+        ],
+        "date": "2019-10-30T22:00:00.000Z",
+        "divisionId": "div_2",
+        "groupId": "Group_V",
+        "tourId": "2 Тур",
+        "tourPeriod": "2 Тур (18/10/2019 - 03/11/2019)"
+    },
+    {
+        "stadium": "Героїв Дніпра, 10Б",
+        "time": "20:30",
+        "homeTeam": "ТС",
+        "guestTeam": "КНУ ім. Т.Г. Шевченко",
+        "homeTeamScore": "2",
+        "guestTeamScore": "3",
+        "scoreBySets": [
+            "25:20",
+            "18:25",
+            "25:21",
+            "24:26",
+            "11:15"
+        ],
+        "date": "2019-11-04T22:00:00.000Z",
+        "divisionId": "div_2",
+        "groupId": "Group_V",
+        "tourId": "3 Тур",
+        "tourPeriod": "3 Тур (04/11/2019 - 18/11/2019)"
+    },
+    {
+        "stadium": "Ірпінь - Троїцька 40",
+        "time": "20:30",
+        "homeTeam": "Ірпінь",
+        "guestTeam": "Коло друзів",
+        "homeTeamScore": "2",
+        "guestTeamScore": "3",
+        "scoreBySets": [
+            "25:23",
+            "25:16",
+            "22:25",
+            "19:25",
+            "15:17"
+        ],
+        "date": "2019-11-18T22:00:00.000Z",
+        "divisionId": "div_2",
+        "groupId": "Group_V",
+        "tourId": "3 Тур",
+        "tourPeriod": "3 Тур (04/11/2019 - 18/11/2019)"
+    },
+    {
+        "stadium": "Героїв Севастополя 37А",
+        "time": "20:00",
+        "homeTeam": "КСЛІ",
+        "guestTeam": "Солом`янка",
+        "homeTeamScore": "3",
+        "guestTeamScore": "2",
+        "scoreBySets": [
+            "25:18",
+            "25:16",
+            "23:25",
+            "22:25",
+            "15:7"
+        ],
+        "date": "2019-11-26T22:00:00.000Z",
+        "divisionId": "div_2",
+        "groupId": "Group_V",
+        "tourId": "3 Тур",
+        "tourPeriod": "3 Тур (04/11/2019 - 18/11/2019)"
+    },
+    {
+        "stadium": "Ірпінь - Троїцька 40",
+        "time": "16:30",
+        "homeTeam": "Ірпінь",
+        "guestTeam": "КНУ ім. Т.Г. Шевченко",
+        "homeTeamScore": "3",
+        "guestTeamScore": "1",
+        "scoreBySets": [
+            "25:23",
+            "25:22",
+            "24:26",
+            "25:15"
+        ],
+        "date": "2019-11-08T22:00:00.000Z",
+        "divisionId": "div_2",
+        "groupId": "Group_V",
+        "tourId": "4 Тур",
+        "tourPeriod": "4 Тур (19/11/2019 - 03/12/2019)"
+    },
+    {
+        "stadium": "Героїв Севастополя 37А",
+        "time": "19:30",
+        "homeTeam": "Коло друзів",
+        "guestTeam": "КСЛІ",
+        "homeTeamScore": "3",
+        "guestTeamScore": "0",
+        "scoreBySets": [
+            "25:18",
+            "25:23",
+            "25:20"
+        ],
+        "date": "2019-12-02T22:00:00.000Z",
+        "divisionId": "div_2",
+        "groupId": "Group_V",
+        "tourId": "4 Тур",
+        "tourPeriod": "4 Тур (19/11/2019 - 03/12/2019)"
+    },
+    {
+        "stadium": "Героїв Севастополя 37А",
+        "time": "20:00",
+        "homeTeam": "КСЛІ",
+        "guestTeam": "Ірпінь",
+        "homeTeamScore": "2",
+        "guestTeamScore": "3",
+        "scoreBySets": [
+            "17:25",
+            "19:25",
+            "25:20",
+            "25:23",
+            "11:15"
+        ],
+        "date": "2019-12-04T22:00:00.000Z",
+        "divisionId": "div_2",
+        "groupId": "Group_V",
+        "tourId": "5 Тур",
+        "tourPeriod": "5 Тур (04/12/2019 - 16/12/2019)"
+    },
+    {
+        "stadium": "Академіка Глушкова, 2б",
+        "time": "19:30",
+        "homeTeam": "КНУ ім. Т.Г. Шевченко",
+        "guestTeam": "Солом`янка",
+        "homeTeamScore": "3",
+        "guestTeamScore": "2",
+        "scoreBySets": [
+            "22:25",
+            "29:27",
+            "23:25",
+            "25:23",
+            "16:14"
+        ],
+        "date": "2019-12-08T22:00:00.000Z",
+        "divisionId": "div_2",
+        "groupId": "Group_V",
+        "tourId": "5 Тур",
+        "tourPeriod": "5 Тур (04/12/2019 - 16/12/2019)"
+    },
+    {
+        "stadium": "Героїв Дніпра, 10Б",
+        "time": "20:30",
+        "homeTeam": "ТС",
+        "guestTeam": "Коло друзів",
+        "homeTeamScore": "3",
+        "guestTeamScore": "0",
+        "scoreBySets": [
+            "27:25",
+            "25:19",
+            "26:24"
+        ],
+        "date": "2019-12-09T22:00:00.000Z",
+        "divisionId": "div_2",
+        "groupId": "Group_V",
+        "tourId": "5 Тур",
+        "tourPeriod": "5 Тур (04/12/2019 - 16/12/2019)"
+    },
+    {
+        "stadium": "-",
+        "time": "-- : --",
+        "homeTeam": "КНУ ім. Т.Г. Шевченко",
+        "guestTeam": "КСЛІ",
+        "homeTeamScore": "3",
+        "guestTeamScore": "0",
+        "scoreBySets": [
+            "25:0",
+            "25:0",
+            "25:0"
+        ],
+        "date": null,
+        "divisionId": "div_2",
+        "groupId": "Group_V",
+        "tourId": "6 Тур",
+        "tourPeriod": "6 Тур (20/12/2019 - 30/12/2019)"
+    },
+    {
+        "stadium": "Лобановського, 6",
+        "time": "19:30",
+        "homeTeam": "Солом`янка",
+        "guestTeam": "Коло друзів",
+        "homeTeamScore": "2",
+        "guestTeamScore": "3",
+        "scoreBySets": [
+            "25:17",
+            "20:25",
+            "24:26",
+            "26:24",
+            "15:17"
+        ],
+        "date": "2019-12-23T22:00:00.000Z",
+        "divisionId": "div_2",
+        "groupId": "Group_V",
+        "tourId": "6 Тур",
+        "tourPeriod": "6 Тур (20/12/2019 - 30/12/2019)"
+    },
+    {
+        "stadium": "Зої Гайдай, 10В",
+        "time": "14:30",
+        "homeTeam": "ТС",
+        "guestTeam": "Ірпінь",
+        "homeTeamScore": "0",
+        "guestTeamScore": "3",
+        "scoreBySets": [
+            "15:25",
+            "21:25",
+            "14:25"
+        ],
+        "date": "2019-12-28T22:00:00.000Z",
+        "divisionId": "div_2",
+        "groupId": "Group_V",
+        "tourId": "6 Тур",
+        "tourPeriod": "6 Тур (20/12/2019 - 30/12/2019)"
+    },
+    {
+        "stadium": "Ірпінь - Троїцька 40",
+        "time": "16:30",
+        "homeTeam": "Ірпінь",
+        "guestTeam": "Солом`янка",
+        "homeTeamScore": "3",
+        "guestTeamScore": "0",
+        "scoreBySets": [
+            "25:13",
+            "25:20",
+            "26:24"
+        ],
+        "date": "2020-01-10T22:00:00.000Z",
+        "divisionId": "div_2",
+        "groupId": "Group_V",
+        "tourId": "7 Тур",
+        "tourPeriod": "7 Тур (08/01/2020 - 17/01/2020)"
+    },
+    {
+        "stadium": "Героїв оборони 18А",
+        "time": "20:00",
+        "homeTeam": "Коло друзів",
+        "guestTeam": "КНУ ім. Т.Г. Шевченко",
+        "homeTeamScore": "3",
+        "guestTeamScore": "1",
+        "scoreBySets": [
+            "25:18",
+            "26:24",
+            "22:25",
+            "25:17"
+        ],
+        "date": "2020-01-12T22:00:00.000Z",
+        "divisionId": "div_2",
+        "groupId": "Group_V",
+        "tourId": "7 Тур",
+        "tourPeriod": "7 Тур (08/01/2020 - 17/01/2020)"
+    },
+    {
+        "stadium": "Героїв Севастополя 37А",
+        "time": "20:00",
+        "homeTeam": "КСЛІ",
+        "guestTeam": "ТС",
+        "homeTeamScore": "3",
+        "guestTeamScore": "1",
+        "scoreBySets": [
+            "25:19",
+            "25:19",
+            "22:25",
+            "25:23"
+        ],
+        "date": "2020-01-14T22:00:00.000Z",
+        "divisionId": "div_2",
+        "groupId": "Group_V",
+        "tourId": "7 Тур",
+        "tourPeriod": "7 Тур (08/01/2020 - 17/01/2020)"
+    },
+    {
+        "stadium": "-",
+        "time": "-- : --",
+        "homeTeam": "Солом`янка",
+        "guestTeam": "КСЛІ",
+        "homeTeamScore": "3",
+        "guestTeamScore": "0",
+        "scoreBySets": [
+            "25:0",
+            "25:0",
+            "25:0"
+        ],
+        "date": null,
+        "divisionId": "div_2",
+        "groupId": "Group_V",
+        "tourId": "8 Тур",
+        "tourPeriod": "8 Тур (18/01/2020 - 27/01/2020)"
+    },
+    {
+        "stadium": "Академіка Глушкова, 2б",
+        "time": "20:00",
+        "homeTeam": "КНУ ім. Т.Г. Шевченко",
+        "guestTeam": "ТС",
+        "homeTeamScore": "1",
+        "guestTeamScore": "3",
+        "scoreBySets": [
+            "23:25",
+            "25:18",
+            "19:25",
+            "11:25"
+        ],
+        "date": "2020-01-26T22:00:00.000Z",
+        "divisionId": "div_2",
+        "groupId": "Group_V",
+        "tourId": "8 Тур",
+        "tourPeriod": "8 Тур (18/01/2020 - 27/01/2020)"
+    },
+    {
+        "stadium": "Героїв оборони 18А",
+        "time": "20:00",
+        "homeTeam": "Коло друзів",
+        "guestTeam": "Ірпінь",
+        "homeTeamScore": "2",
+        "guestTeamScore": "3",
+        "scoreBySets": [
+            "20:25",
+            "25:20",
+            "25:20",
+            "10:25",
+            "7:15"
+        ],
+        "date": "2020-01-28T22:00:00.000Z",
+        "divisionId": "div_2",
+        "groupId": "Group_V",
+        "tourId": "8 Тур",
+        "tourPeriod": "8 Тур (18/01/2020 - 27/01/2020)"
+    },
+    {
+        "stadium": "Академіка Глушкова, 2б",
+        "time": "19:30",
+        "homeTeam": "КНУ ім. Т.Г. Шевченко",
+        "guestTeam": "Ірпінь",
+        "homeTeamScore": "0",
+        "guestTeamScore": "3",
+        "scoreBySets": [
+            "22:25",
+            "21:25",
+            "24:26"
+        ],
+        "date": "2020-02-02T22:00:00.000Z",
+        "divisionId": "div_2",
+        "groupId": "Group_V",
+        "tourId": "9 Тур",
+        "tourPeriod": "9 Тур (28/01/2020 - 06/02/2020)"
+    },
+    {
+        "stadium": "Героїв Дніпра, 10Б",
+        "time": "20:30",
+        "homeTeam": "ТС",
+        "guestTeam": "Солом`янка",
+        "homeTeamScore": "3",
+        "guestTeamScore": "0",
+        "scoreBySets": [
+            "25:17",
+            "26:24",
+            "25:12"
+        ],
+        "date": "2020-02-03T22:00:00.000Z",
+        "divisionId": "div_2",
+        "groupId": "Group_V",
+        "tourId": "9 Тур",
+        "tourPeriod": "9 Тур (28/01/2020 - 06/02/2020)"
+    },
+    {
+        "stadium": "Героїв Севастополя 37А",
+        "time": "19:30",
+        "homeTeam": "КСЛІ",
+        "guestTeam": "Коло друзів",
+        "homeTeamScore": "3",
+        "guestTeamScore": "0",
+        "scoreBySets": [
+            "25:19",
+            "25:18",
+            "25:21"
+        ],
+        "date": "2020-02-05T22:00:00.000Z",
+        "divisionId": "div_2",
+        "groupId": "Group_V",
+        "tourId": "9 Тур",
+        "tourPeriod": "9 Тур (28/01/2020 - 06/02/2020)"
+    },
+    {
+        "stadium": "Героїв оборони 18А",
+        "time": "14:00",
+        "homeTeam": "Коло друзів",
+        "guestTeam": "ТС",
+        "homeTeamScore": "3",
+        "guestTeamScore": "2",
+        "scoreBySets": [
+            "22:25",
+            "25:19",
+            "17:25",
+            "25:20",
+            "15:8"
+        ],
+        "date": "2020-02-07T22:00:00.000Z",
+        "divisionId": "div_2",
+        "groupId": "Group_V",
+        "tourId": "10 Тур",
+        "tourPeriod": "10 Тур (07/02/2020 - 16/02/2020)"
+    },
+    {
+        "stadium": "Героїв Севастополя 37А",
+        "time": "20:30",
+        "homeTeam": "Ірпінь",
+        "guestTeam": "КСЛІ",
+        "homeTeamScore": "0",
+        "guestTeamScore": "3",
+        "scoreBySets": [
+            "18:25",
+            "24:26",
+            "17:25"
+        ],
+        "date": "2020-02-09T22:00:00.000Z",
+        "divisionId": "div_2",
+        "groupId": "Group_V",
+        "tourId": "10 Тур",
+        "tourPeriod": "10 Тур (07/02/2020 - 16/02/2020)"
+    },
+    {
+        "stadium": "Лобановського, 6",
+        "time": "19:30",
+        "homeTeam": "Солом`янка",
+        "guestTeam": "КНУ ім. Т.Г. Шевченко",
+        "homeTeamScore": "2",
+        "guestTeamScore": "3",
+        "scoreBySets": [
+            "23:25",
+            "25:19",
+            "25:17",
+            "22:25",
+            "8:15"
+        ],
+        "date": "2020-02-12T22:00:00.000Z",
+        "divisionId": "div_2",
+        "groupId": "Group_V",
+        "tourId": "10 Тур",
+        "tourPeriod": "10 Тур (07/02/2020 - 16/02/2020)"
+    }
+]
