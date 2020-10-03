@@ -6,3 +6,5 @@
 2. https://insomnia.rest/
  - test RESP API
  - test GraphQL API
+3. https://www.mockaroo.com/
+ - genearte mock data
